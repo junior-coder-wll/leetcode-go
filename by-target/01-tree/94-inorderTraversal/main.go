@@ -27,6 +27,16 @@ func inorderTraversal(root *TreeNode) []int {
 	return ans
 }
 
+/* 使用迭代的方式 */
+func inorderTraversal1(root *TreeNode) []int {
+	var ans []int
+	if root == nil {
+		return ans
+	}
+
+	return ans
+}
+
 func main() {
 	node := TreeNode{
 		Val:  1,
